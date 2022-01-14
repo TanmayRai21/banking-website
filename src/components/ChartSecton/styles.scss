@@ -1,0 +1,25 @@
+.chart-section {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    &__left {
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 25px;
+            max-width: 466px;
+        }
+
+        img {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 50px;
+        }
+    }
+
+    &__right {
+        padding-left: 5rem;
+        p {
+            padding-bottom: 20px;
+        }
+    }
+}

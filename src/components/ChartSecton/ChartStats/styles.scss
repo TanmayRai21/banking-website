@@ -1,0 +1,18 @@
+.charts-stats {
+  background-color: white;
+  border-radius: 50px;
+  border: 1px solid var(--border-colour);
+  height: 10rem;
+  width: 14rem;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  h4 {
+    font-size: 2rem;
+    color: var(--purple-primary);
+  }
+  p {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 600;
+  }
+}

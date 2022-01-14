@@ -26,26 +26,27 @@ const GlobalStyle = createGlobalStyle`
     a{
         color: inherit;
     }
-    // p{
-    //     color: var(--lavender-secondary);
-    //     line-height: 1.9rem;
-    // }
-    // .secondary-heading{
-    //     font-size: 3rem;
-    //     color: var(--purple-primary);
-    // }
-    // .small-heading{
-    //     font-size: 2.5rem;
-    //     color: var(--purple-primary);
-    //     text-align: center;
-    // }
-    // span{
-    //     color: var(--accent-pink);
-    // }
+    p{
+        color: var(--lavender-secondary);
+        line-height: 1.9rem;
+    }
+    .secondary-heading{
+        font-size: 2.2rem;
+        padding-bottom: 10px;
+        color: var(--purple-primary);
+    }
+    .small-heading{
+        font-size: 2.5rem;
+        color: var(--purple-primary);
+        text-align: center;
+    }
+    span{
+        color: var(--accent-pink);
+    }
 
-    // .c-para{
-    //     text-align: center;
-    // }
+    .c-para{
+        text-align: center;
+    }
   
 `;
 
