@@ -2,5 +2,12 @@
      display: flex;
     justify-content: space-between;
     min-height: 10vh;
-    // align-item: 
+    align-items: center;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+    }
+
 }

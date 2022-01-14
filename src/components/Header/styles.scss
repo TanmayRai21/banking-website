@@ -1,12 +1,28 @@
 .header {
-    height: 100vh;
-    width: 100%;
-    background-image: url('../../img/bg.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 100%;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("../../img/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 100%;
 
-    &__content {
-        padding: 0 18rem;
-    }
+  &__content {
+    padding: 0 18rem;
+  }
+}
+
+@media screen and (max-width: 1347px) {
+  .header__content {
+    padding: 5rem 14rem;
+  }
+}
+@media screen and (max-width: 1186px) {
+  .header__content {
+    padding: 5rem 8rem;
+  }
+}
+@media screen and (max-width: 990px) {
+  .header__content {
+    padding: 5rem 4rem;
+  }
 }

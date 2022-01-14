@@ -6,7 +6,7 @@ export const PrimaryButton = (props) => {
     const { name } = props;
 
     return (
-        <div className="primary-button">
+        <div className="primary-btn">
             {name}
         </div>
     );
