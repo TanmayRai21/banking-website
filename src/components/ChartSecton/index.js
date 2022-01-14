@@ -1,7 +1,7 @@
 import React from "react";
 import { InnerLayout } from "../../styles/Layouts";
 import ChartStats from "./ChartStats";
-import AnimatedButton from "../AnimatedButton";
+import Button from "../Button";
 import chart from "../../img/chart.svg";
 import "./styles.scss";
 
@@ -23,7 +23,7 @@ export const ChartSection = () => {
             libero fugiat possimus voluptatum incidunt voluptate amet laborum
             placeat ullam natus quae id minima, repellat ex?
           </p>
-          <AnimatedButton name='Learn More' />
+          <Button animated={true} name="Learn More" />
         </div>
       </div>
     </InnerLayout>

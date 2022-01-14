@@ -1,5 +1,5 @@
 import React from 'react';
-import { PrimaryButton } from '../Primary-button';
+import Button from '../Button';
 import logo from '../../img/logo.svg';
 import './styles.scss';
 
@@ -14,7 +14,7 @@ export const Navigation = () => {
                 <li><a href="">Feature</a></li>
                 <li><a href="">Pricing</a></li>
             </ul>
-            <PrimaryButton name={'Sign Up'} />
+            <Button name={'Sign Up'} />
         </div>
 
     )
