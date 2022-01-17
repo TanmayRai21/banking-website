@@ -4,6 +4,8 @@ import { ChartSection } from "./components/ChartSecton";
 import { OuterLayout } from './styles/Layouts'
 import { MessageSection } from "./components/MeassgeSection";
 import { PaymentSection } from "./components/PaymentSection";
+import { FaqSection } from "./components/FaqSection";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
         <ChartSection />
         <MessageSection />
         <PaymentSection />
+        <FaqSection />
       </OuterLayout>
+      <Footer />
     </div>
   );
 }

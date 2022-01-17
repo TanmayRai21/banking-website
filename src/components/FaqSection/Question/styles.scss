@@ -1,0 +1,27 @@
+.question {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 25px;
+    margin: 15px 0;
+    color: var(--purple-primary);
+    cursor: pointer;
+    transition: 0.4s all ease-in-out;
+    
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        span {
+            display: flex;
+            align-items: center;
+            img {
+                width: 24px;
+            }
+        }
+    }
+    p {
+        padding-top: 10px;
+        transition: 0.4s all ease-in-out;
+    }
+}

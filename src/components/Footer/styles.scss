@@ -1,0 +1,9 @@
+.footer {
+    padding: 2rem 18rem;
+    background-color: #dce2f0;
+    
+    &__content {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
