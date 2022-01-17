@@ -2,6 +2,7 @@ import { Header } from "./components/Header";
 import { CardSection } from "./components/CardSection";
 import { ChartSection } from "./components/ChartSecton";
 import { OuterLayout } from './styles/Layouts'
+import { MessageSection } from "./components/MeassgeSection";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <OuterLayout>
         <CardSection />
         <ChartSection />
+        <MessageSection />
       </OuterLayout>
     </div>
   );
