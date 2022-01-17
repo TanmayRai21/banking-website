@@ -1,9 +1,6 @@
 import React from "react";
 import Button from '../Button';
-import phone from "../../img/phone.svg";
-import ring1 from "../../img/ring_orange.svg";
-import message1 from "../../img/message_pink.svg";
-import message2 from "../../img/message_blue.svg";
+import { phone, ringOrange, messageBlue, messagePink } from "../../assets/Images";
 
 import './styles.scss';
 
@@ -24,9 +21,9 @@ export const HeaderContent = () => {
       </div>
       <div className="content__right">
         <img src={phone} alt="" className="phone" />
-        <img src={ring1} alt="" className="ring1" />
-        <img src={message1} alt="" className="message1" />
-        <img src={message2} alt="" className="message2" />
+        <img src={ringOrange} alt="" className="ring1" />
+        <img src={messagePink} alt="" className="message1" />
+        <img src={messageBlue} alt="" className="message2" />
       </div>
     </div>
   );

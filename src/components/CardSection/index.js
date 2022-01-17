@@ -1,6 +1,6 @@
 import React from "react";
 import { InnerLayout } from "../../styles/Layouts";
-import card from "../../img/creditcard.svg";
+import { creditcard } from "../../assets/Images";
 import "./styles.scss";
 
 export const CardSection = () => {
@@ -16,7 +16,7 @@ export const CardSection = () => {
           </p>
         </div>
         <div className="card-section__right">
-          <img src={card} alt="" />
+          <img src={creditcard} alt="" />
         </div>
       </div>
     </InnerLayout>

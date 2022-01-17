@@ -2,7 +2,7 @@ import React from "react";
 import { InnerLayout } from "../../styles/Layouts";
 import ChartStats from "./ChartStats";
 import Button from "../Button";
-import chart from "../../img/chart.svg";
+import { chart } from "../../assets/Images";
 import "./styles.scss";
 
 export const ChartSection = () => {

@@ -1,8 +1,5 @@
 import React from "react";
-
-import arrow from "../../img/arrow.svg";
-import blob1 from "../../img/blob_top.svg";
-import blob2 from "../../img/blob_bottom.svg";
+import { arrow, blobTop, blobBottom } from "../../assets/Images";
 
 import './styles.scss';
 
@@ -16,8 +13,8 @@ const Button = (props) => {
         {animated && (
           <>
             <img src={arrow} alt="" className="arrow" />
-            <img src={blob1} alt="" className="blob1" />
-            <img src={blob2} alt="" className="blob2" />
+            <img src={blobTop} alt="" className="blob1" />
+            <img src={blobBottom} alt="" className="blob2" />
           </>
         )}
       </div>

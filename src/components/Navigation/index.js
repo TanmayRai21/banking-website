@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '../Button';
-import logo from '../../img/logo.svg';
+import { logo } from '../../assets/Images';
 import './styles.scss';
 
 export const Navigation = () => {
