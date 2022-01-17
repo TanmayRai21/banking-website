@@ -3,6 +3,7 @@ import { CardSection } from "./components/CardSection";
 import { ChartSection } from "./components/ChartSecton";
 import { OuterLayout } from './styles/Layouts'
 import { MessageSection } from "./components/MeassgeSection";
+import { PaymentSection } from "./components/PaymentSection";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <CardSection />
         <ChartSection />
         <MessageSection />
+        <PaymentSection />
       </OuterLayout>
     </div>
   );
