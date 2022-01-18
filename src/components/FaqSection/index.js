@@ -1,6 +1,5 @@
 import React from 'react';
 import { InnerLayout } from '../../styles/Layouts';
-import { lines } from '../../assets/Images';
 import './styles.scss';
 import { Question } from './Question';
 import { Slide } from 'react-reveal';

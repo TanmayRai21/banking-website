@@ -5,6 +5,12 @@ import './styles.scss';
 import { Fade } from 'react-reveal';
 
 export const Navigation = () => {
+
+    const handleClick = (ele) => {
+        const element = document.getElementsByClassName(ele)[0];
+        element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
     return (
         <div className='navigation'>
             <div className="navigation__logo">
@@ -13,9 +19,9 @@ export const Navigation = () => {
 
             <Fade>
                 <ul>
-                    <li><a href="">How it Works</a></li>
-                    <li><a href="">Pricing</a></li>
-                    <li><a href="">FAQs</a></li>
+                    <li onClick={() => handleClick('card-section')}>About</li>
+                    <li onClick={() => handleClick('payment')}>Pricing</li>
+                    <li onClick={() => handleClick('faq')}>FAQs</li>
                 </ul>
                 <div className="navigation__button">
                     <Button name={'Log In'} />
