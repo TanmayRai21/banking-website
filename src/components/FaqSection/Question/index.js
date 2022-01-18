@@ -11,8 +11,8 @@ export const Question = ({ques}) => {
     }
     
     return (
-        <div className="question">
-            <h1 onClick={handleToggle} >{ques.title} <span><img src={toggle ? minus : plus} alt="" /></span></h1>
+        <div className="question" onClick={handleToggle}>
+            <h1 >{ques.title} <span><img src={toggle ? minus : plus} alt="" /></span></h1>
             {toggle && <p>{ques.description}</p>}
         </div>
     )
