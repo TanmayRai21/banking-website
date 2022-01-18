@@ -8,7 +8,7 @@ export const HeaderContent = () => {
   return (
     <div className="content">
       <div className="content__left">
-        <div className="left-text-container">
+        <div className="content__left--content">
           <h1>Smart banking for freelancers</h1>
           <p className="white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit

@@ -1,19 +1,34 @@
 .card-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 
-    &__left {
-        padding: 1rem 0;
+  &__left {
+    padding: 1rem 0;
+  }
+
+  &__right {
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-end;
+    img {
+      filter: drop-shadow(0px 50px 100px rgba(22, 25, 79, 0.15));
     }
+  }
 
+  @media screen and (max-width: 1350px) {
+    &__right img {
+      width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    grid-template-columns: repeat(1, 1fr);
     &__right {
-        padding-left: 10px;
-        display: flex;
-        justify-content: flex-end;
-        img{
-            filter: drop-shadow(0px 50px 100px rgba(22, 25, 79, 0.15));
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            border-radius: 25px;
-        }
+      padding: 0;
+      justify-content: center;
+      img {
+        padding-top: 25px;
+      }
     }
+  }
 }

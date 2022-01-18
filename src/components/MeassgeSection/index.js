@@ -22,7 +22,7 @@ export const MessageSection = () => {
                     </div>
                 </div>
                 <div className="message-section__right">
-                    <img src={conversation} alt="" />
+                    <img className='chat' src={conversation} alt="" />
                     <img src={bgCircles} alt="" className='bgCircle cir2'/>
                 </div>
             </div>

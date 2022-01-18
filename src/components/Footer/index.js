@@ -7,8 +7,7 @@ export const Footer = () => {
         <div className="footer">
             <div className="footer__content">
                 <img src={logo} alt="" />
-                <p>Copyright @2021 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, obcaecati. <br /> All rights reserved.
-                </p>
+                <p>Copyright @2021. All rights reserved.</p>
             </div>
         </div >
     );

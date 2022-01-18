@@ -3,10 +3,6 @@
     grid-template-columns: repeat(2, 1fr);
     padding-top: 3rem;
 
-    @media screen and (max-width: 700px) {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
     &__left {
         display: flex;
         align-items: center;
@@ -17,9 +13,6 @@
         h1 {
             font-size: 3rem;
             font-weight: 600;
-            @media screen and (max-width: 700px) {
-                font-size: 3rem;
-            }
         }
         .white {
             padding: 1.4rem 0;
@@ -82,6 +75,35 @@
             }
             100% {
                 transform: translateY(0) rotate(0deg) scale(1) translateX(0);
+            }
+        }
+    }
+
+    @media screen and (max-width: 1200px) {
+        &__right .phone {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        grid-template-columns: repeat(1, 1fr);
+        &__left {
+            padding: 0;
+            h1 {
+                font-size: 2.2rem;
+            }
+        }
+
+        &__right {
+            padding-top: 4rem;
+            .phone {
+                width: 100%;
+            }
+            .message1 {
+                width: 35%;
+            }
+            .ring1, .message2 {
+                width: 30%;
             }
         }
     }

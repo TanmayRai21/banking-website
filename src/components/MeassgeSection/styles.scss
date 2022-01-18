@@ -1,40 +1,66 @@
 .message-section {
-    display: grid;
-    grid-template-columns: auto auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  &__left {
     position: relative;
-    
-    &__left {
-        padding-right: 3rem;
-        &--images {
-            display: flex;
-            align-items: center;
-            padding-top: 2rem;
-            img { 
-                margin-left: -20px;
-                background-color: #fff;
-                border: 3px solid rgb(192, 123, 192); 
-                border-radius: 100%;
-                &:first-child {
-                    margin-left: 0px;
-                }
-            }
-            p {
-                padding-left: 8px;
-            }
+    padding-right: 3rem;
+    &--images {
+      display: flex;
+      align-items: center;
+      padding-top: 2rem;
+      img {
+        width: 100%;
+        margin-left: -20px;
+        background-color: #fff;
+        border: 3px solid rgb(192, 123, 192);
+        border-radius: 100%;
+        &:first-child {
+          margin-left: 0px;
         }
+      }
+      p {
+        padding-left: 8px;
+      }
     }
+  }
+
+  &__right {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    .chat {
+      width: 70%;
+    }
+  }
+
+  @media screen and (max-width: 1500px) {
+      &__right .chat {
+          width: 90%;
+      }
+  }
+
+  @media screen and (max-width: 800px) {
+    grid-template-columns: repeat(1, 1fr);
+    &__right {
+      justify-content: center;
+      .chat {
+        padding-top: 5rem;
+      }
+    }
+  }
 }
 
 .bgCircle {
-    position: absolute;
-    z-index: -1;
+  position: absolute;
+  z-index: -1;
 }
 
 .cir1 {
-    top: -2rem;
-    left: -3rem;
+  top: -2rem;
+  left: -3rem;
 }
 .cir2 {
-    bottom: -2rem;
-    right: -3rem;
+  bottom: -2rem;
+  right: -3rem;
 }

@@ -1,9 +1,23 @@
 .footer {
-    padding: 2rem 18rem;
-    background-color: #dce2f0;
-    
-    &__content {
-        display: grid;
-        grid-template-columns: auto auto;
+  padding: 2rem 18rem;
+  background-color: #dce2f0;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    img {
+        padding-right: 30px;
     }
+  }
+}
+
+@media screen and (max-width: 1186px) {
+  .footer {
+    padding: 5rem 4rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 5rem 2rem;
+  }
 }
