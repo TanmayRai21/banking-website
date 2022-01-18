@@ -5,6 +5,20 @@ import { PaymentCard } from './PaymentCard';
 import './styles.scss';
 
 export const PaymentSection = () => {
+
+
+    const features = [
+        'Send/Receive Money online',
+        'Charge free transactions',
+        'Pay credit card bills',
+        'Usage analysis',
+        'Wallet access',
+        'Virtual cards',
+        'Priority 24/7 support',
+        'AI analysis of usage',
+        'Multi-user access'
+    ]
+
     return (
         <InnerLayout>
             <Zoom>
@@ -13,32 +27,20 @@ export const PaymentSection = () => {
                     <p style={{ textAlign: 'center' }}>Choose a plan that works best for you.</p>
                     <div className="payment__card">
                         <PaymentCard
-                            account={'Free'}
-                            amount={'$0'}
-                            text={'Manage your business with a simple and efficient amount.'}
+                            account={'BASIC'}
+                            amount={'₹ 0'}
+                            text={'Forever free plan'}
                             button={'Get Started'}
-                            text1={'10 free local transfer'}
-                            text2={'Free ATM withdrawals in Dollors'}
-                            text3={'Free payment to other Draft account'}
-                            text4={'Prepaid debit cards'}
-                            text5={'Virtual cards'}
-                            text6={'Priority 24/7 support'}
-                            text7={'Exchange 24 currencies'}
-                            text8={'Multi-user access'}
+                            featuresChecked={features.slice(0, 5)}
+                            featuresUnchecked={features.slice(5, features?.length)}
                         />
                         <PaymentCard
-                            account={'Paid'}
-                            amount={'$0'}
-                            text={'Manage your business with a simple and efficient amount.'}
-                            button={'Get Started'}
-                            text1={'10 free local transfer'}
-                            text2={'Free ATM withdrawals in Dollors'}
-                            text3={'Free payment to other Draft account'}
-                            text4={'Prepaid debit cards'}
-                            text5={'Virtual cards'}
-                            text6={'Priority 24/7 support'}
-                            text7={'Exchange 24 currencies'}
-                            text8={'Multi-user access'}
+                            account={'PREMIUM'}
+                            amount={'₹ 299'}
+                            text={'Custom plan'}
+                            button={'Buy Now'}
+                            featuresChecked={features}
+                            featuresUnchecked={[]}
                         />
                     </div>
                 </div>

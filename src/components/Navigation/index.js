@@ -2,16 +2,14 @@ import React from 'react';
 import Button from '../Button';
 import { logo } from '../../assets/Images';
 import './styles.scss';
-import { Fade, Zoom } from 'react-reveal';
+import { Fade } from 'react-reveal';
 
 export const Navigation = () => {
     return (
         <div className='navigation'>
-            <Zoom>
-                <div className="navigation__logo">
-                    <img src={logo} alt="" />
-                </div>
-            </Zoom>
+            <div className="navigation__logo">
+                <img src={logo} alt="" />
+            </div>
 
             <Fade>
                 <ul>

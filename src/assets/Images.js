@@ -1,6 +1,5 @@
 import logo from './img/logo.png';
 import payment from './img/payment.png';
-import active from './img/active.svg';
 import arrow from './img/arrow.svg';
 import avatar1 from './img/avatar1.svg';
 import avatar2 from './img/avatar2.svg';
@@ -16,9 +15,6 @@ import checkDisabled from './img/check_disabled.svg';
 import check from './img/check.svg';
 import circleBg from './img/circleBg.svg';
 import conversation from './img/conversation.svg';
-import creditcard from './img/creditcard.svg';
-import inactive from './img/inactive.svg';
-import lines from './img/lines.svg';
 import messageBlue from './img/message_blue.svg';
 import messagePink from './img/message_pink.svg';
 import minus from './img/minus.svg';
@@ -26,5 +22,5 @@ import phone from './img/phone.svg';
 import plus from './img/plus.svg';
 import ringOrange from './img/ring_orange.svg';
 
-export { logo, payment, active, arrow, avatar1, avatar2, avatar3, avatar4, avatar5, bgCircles, bg, blobBottom, blobTop, chart, checkDisabled, check, circleBg,
-    conversation, creditcard, inactive, lines, messageBlue, messagePink, minus, phone, plus, ringOrange }
+export { logo, payment, arrow, avatar1, avatar2, avatar3, avatar4, avatar5, bgCircles, bg, blobBottom, blobTop, chart, checkDisabled, check, circleBg,
+    conversation, messageBlue, messagePink, minus, phone, plus, ringOrange }
