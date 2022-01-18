@@ -22,7 +22,7 @@ export const HeaderContent = () => {
         </div>
       </Fade>
 
-      <Flip right cascade>
+      <Flip right >
         <div className="content__right">
           <img src={phone} alt="" className="phone" />
           <img src={ringOrange} alt="" className="ring1" />
