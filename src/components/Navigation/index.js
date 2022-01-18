@@ -12,14 +12,17 @@ export const Navigation = () => {
                     <img src={logo} alt="" />
                 </div>
             </Zoom>
-            
+
             <Fade>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Feature</a></li>
+                    <li><a href="">How it Works</a></li>
                     <li><a href="">Pricing</a></li>
-                    <Button name={'Sign Up'} />
+                    <li><a href="">FAQs</a></li>
                 </ul>
+                <div className="navigation__button">
+                    <Button name={'Log In'} />
+                    <Button name={'Sign Up'} />
+                </div>
             </Fade>
         </div>
     )

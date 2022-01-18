@@ -10,7 +10,7 @@ export const PaymentSection = () => {
             <Zoom>
                 <div className="payment">
                     <h3 className='small-heading'>An Exceptional Service, <span>at the right price</span></h3>
-                    <p style={{ textAlign: 'center' }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, aliquam.</p>
+                    <p style={{ textAlign: 'center' }}>Choose a plan that works best for you.</p>
                     <div className="payment__card">
                         <PaymentCard
                             account={'Free'}

@@ -13,8 +13,8 @@ export const ChartSection = () => {
         <Bounce left>
           <div className="chart-section__left">
             <div className="stats">
-              <ChartStats name="Balance Amount" amount="$ 10" />
-              <ChartStats name="Last Transaction" amount="$ 120" />
+              <ChartStats name="Balance Amount" amount="₹ 10,354" />
+              <ChartStats name="Last Transaction" amount="₹ 257" />
             </div>
             <img src={chart} alt="" />
           </div>
@@ -24,9 +24,15 @@ export const ChartSection = () => {
           <div className="chart-section__right">
             <h2 className="secondary-heading">Manage your finances</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-              libero fugiat possimus voluptatum incidunt voluptate amet laborum
-              placeat ullam natus quae id minima, repellat ex?
+              <ul>
+                <li>Track monthly usage</li>
+                <li>Money Transfer</li>
+                <li>Track usage pattern</li>
+                <li>Freelance/Business Payment</li>
+                <li>Pay Credit card bills</li>
+                <li>NFC Payments</li>
+                <li>Smart over-expense notification</li>
+              </ul>
             </p>
             <Button animated={true} name="Learn More" />
           </div>

@@ -4,6 +4,15 @@
 
   &__left {
     padding: 1rem 0;
+    p {
+      padding-bottom: 20px;
+      ul {
+        padding: 20px;
+        li {
+          list-style: disc;
+        }
+      }
+    }
   }
 
   &__right {
@@ -11,6 +20,8 @@
     display: flex;
     justify-content: flex-end;
     img {
+      width: 100%;
+      border-radius: 50px;
       filter: drop-shadow(0px 50px 100px rgba(22, 25, 79, 0.15));
     }
   }
@@ -26,9 +37,6 @@
     &__right {
       padding: 0;
       justify-content: center;
-      img {
-        padding-top: 25px;
-      }
     }
   }
 }

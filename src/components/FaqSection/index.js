@@ -11,7 +11,7 @@ export const FaqSection = () => {
             <Slide bottom>
                 <div className="faq">
                     <h3 className="small-heading">Frequenty <span>asked Questions</span></h3>
-                    <p style={{ textAlign: 'center' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est saepe aperiam, sunt modi atque tempore quos reiciendis sed quod nostrum!</p>
+                    <p style={{ textAlign: 'center' }}>Everything you need to know so that you can use Unipay like a pro !</p>
 
                     <div className="faq__questions">
                         {questions.map((ele, ind) => (
@@ -27,27 +27,27 @@ export const FaqSection = () => {
 const questions = [
     {
         id: 1,
-        title: 'Who can open a Draft account?',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate unde vero corporis tempora praesentium laboriosam ratione incidunt a odit.'
+        title: 'I can\'t wait. How do i get started ?',
+        description: 'Click on the sign up button on the top right corner. Register your details and you are all set up to go.'
     },
     {
         id: 2,
-        title: 'What if I withdraw money abroad?',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate unde vero corporis tempora praesentium laboriosam ratione incidunt a odit.'
+        title: 'What if I send/withdraw money ?',
+        description: 'Create an account and then click on the Make Payment button. Select contact/number/UPI-id or scan QR code to make payment.'
     },
     {
         id: 3,
-        title: 'What happens when my subscription ends?',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate unde vero corporis tempora praesentium laboriosam ratione incidunt a odit.'
+        title: 'What happens when my subscription ends ?',
+        description: 'You will be auto shifted to free version of Unipay. To use the payed features, you need to subscribe.'
     },
     {
         id: 4,
-        title: 'Is this service better than YouBay?',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate unde vero corporis tempora praesentium laboriosam ratione incidunt a odit.'
+        title: 'I love it but is it safe ?',
+        description: 'Unipay follows 2-factor authentication and autherisation for all payments and login. You will be needed to put a pin/fingerprint/face unlock to unlock the app. Also you will be asked for mpin and mtpin at the time of payments.'
     },
     {
         id: 5,
-        title: 'What happens if I withdraw more than $250?',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate unde vero corporis tempora praesentium laboriosam ratione incidunt a odit.'
+        title: 'Is there a limit on transaction amount ?',
+        description: 'Yes, as per RBI regulations, you can transfer a maximum of ₹ 1,00,000 per day.'
     }
 ]

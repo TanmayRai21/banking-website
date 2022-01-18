@@ -10,14 +10,12 @@ export const HeaderContent = () => {
       <Fade left cascade>
         <div className="content__left">
           <div className="content__left--content">
-            <h1>Smart banking for freelancers</h1>
+            <h1>Ultimate Finance Management Solution</h1>
             <p className="white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-              molestiae minus dicta ipsum atque est qui vel illo magni voluptates
-              esse, e x commodi corporis quos odio libero temporibus, eveniet
-              nisi.
+              Future is now. Manage all your payment, wallet, finance usage using Unipay.
+              Make business payments online and streamline your company budget management with easy to 
+              use virtual and physical card ai in one tool.
             </p>
-            <Button animated={true} name="Register Now" />
           </div>
         </div>
       </Fade>

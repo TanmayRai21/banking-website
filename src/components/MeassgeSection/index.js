@@ -12,7 +12,8 @@ export const MessageSection = () => {
                     <div className="message-section__left">
                         <img src={bgCircles} alt="" className='bgCircle cir1' />
                         <h2 className="secondary-heading">We support you 24/7 with our chat bots.</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque sit ad deleniti alias quo repudiandae consequatur odio iste, similique culpa maiores nulla in sint. Vitae quidem, molestiae asperiores dolorem ducimus ipsam temporibus atque nesciunt ullam, vel laborum ipsum debitis ea.</p>
+                        <p>When everything is on the line, we're there for you 24x7. Our globally distributed team allows us
+                            to serve as reliable partners for your needs, no matter what time of day.</p>
 
                         <div className="message-section__left--images">
                             <img src={avatar1} alt="" />
