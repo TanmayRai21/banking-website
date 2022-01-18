@@ -3,24 +3,27 @@ import { InnerLayout } from '../../styles/Layouts';
 import { lines } from '../../assets/Images';
 import './styles.scss';
 import { Question } from './Question';
+import { Slide } from 'react-reveal';
 
 export const FaqSection = () => {
     return (
         <InnerLayout>
-            <div className="faq">
-                <h3 className="small-heading">Frequenty <span>asked Questions</span></h3>
-                <p style={{ textAlign: 'center' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est saepe aperiam, sunt modi atque tempore quos reiciendis sed quod nostrum!</p>
+            <Slide bottom>
+                <div className="faq">
+                    <h3 className="small-heading">Frequenty <span>asked Questions</span></h3>
+                    <p style={{ textAlign: 'center' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est saepe aperiam, sunt modi atque tempore quos reiciendis sed quod nostrum!</p>
 
-                <div className="faq__lines">
-                    <img src={lines} alt="" />
-                </div>
+                    <div className="faq__lines">
+                        <img src={lines} alt="" />
+                    </div>
 
-                <div className="faq__questions">
-                    {questions.map((ele, ind) => (
-                        <Question ques={ele} key={ind} />
-                    ))}
+                    <div className="faq__questions">
+                        {questions.map((ele, ind) => (
+                            <Question ques={ele} key={ind} />
+                        ))}
+                    </div>
                 </div>
-            </div> 
+            </Slide>     
         </InnerLayout>
     )
 }
