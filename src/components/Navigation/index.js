@@ -7,7 +7,7 @@ import { AuthSection } from '../Authentication';
 
 export const Navigation = () => {
 
-    const [modalState, setModalState] = useState('login');
+    const [modalState, setModalState] = useState('');
 
     const handleClick = (ele) => {
         const element = document.getElementsByClassName(ele)[0];
