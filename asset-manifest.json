@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/unipay-payment-website/static/css/main.66dc781e.css",
-    "main.js": "/unipay-payment-website/static/js/main.726b50bf.js",
+    "main.css": "/unipay-payment-website/static/css/main.c6d1c877.css",
+    "main.js": "/unipay-payment-website/static/js/main.63dd08f4.js",
     "static/media/phone.svg": "/unipay-payment-website/static/media/phone.3e9a43350241656ea382db6f66ba7206.svg",
     "static/media/conversation.svg": "/unipay-payment-website/static/media/conversation.a71ef2b6b4ac96e0542d0c36e4ef0c3d.svg",
     "static/media/payment.png": "/unipay-payment-website/static/media/payment.1e5abdb043367b131294.png",
@@ -28,11 +28,11 @@
     "static/media/blob_top.svg": "/unipay-payment-website/static/media/blob_top.b4e03059a6f7efc4e60ae91cbc289dd9.svg",
     "static/media/blob_bottom.svg": "/unipay-payment-website/static/media/blob_bottom.ea261f6764e7da58463791fc7976f52b.svg",
     "static/media/minus.svg": "/unipay-payment-website/static/media/minus.c1a5eebadb9279dd816e0c4244ccef1b.svg",
-    "main.66dc781e.css.map": "/unipay-payment-website/static/css/main.66dc781e.css.map",
-    "main.726b50bf.js.map": "/unipay-payment-website/static/js/main.726b50bf.js.map"
+    "main.c6d1c877.css.map": "/unipay-payment-website/static/css/main.c6d1c877.css.map",
+    "main.63dd08f4.js.map": "/unipay-payment-website/static/js/main.63dd08f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.66dc781e.css",
-    "static/js/main.726b50bf.js"
+    "static/css/main.c6d1c877.css",
+    "static/js/main.63dd08f4.js"
   ]
 }
