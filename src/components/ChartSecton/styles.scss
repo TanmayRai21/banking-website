@@ -54,12 +54,21 @@
 
   @media screen and (max-width: 500px) {
     &__left {
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-        }
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      }
       img {
         border-radius: 40px;
+      }
+    }
+    &__right {
+      h2 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 14px;
+        line-height: 1.4rem;
       }
     }
   }

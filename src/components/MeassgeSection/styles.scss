@@ -49,6 +49,18 @@
       }
     }
   }
+
+  @media screen and (max-width: 500px) {
+    &__left {
+      h2 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 14px;
+        line-height: 1.4rem;
+      }
+    }
+  }
 }
 
 .bgCircle {

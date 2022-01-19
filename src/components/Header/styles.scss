@@ -26,3 +26,9 @@
     padding: 5rem 4rem;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .header__content {
+    padding: 2rem;
+  }
+}

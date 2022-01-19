@@ -51,10 +51,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    &__button {
-      justify-content: flex-start;
-      flex-direction: column;
-    }
     &__logo {
       display: flex;
       justify-content: flex-start;
@@ -66,10 +62,13 @@
     }
   }
 
-  @media screen and (max-width: 480px) {
-    ul {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
+  @media screen and (max-width: 500px) {
+    grid-template-columns: repeat(1, 1fr);
+    &__logo {
+      width: 40%;
+    }
+    ul li {
+      font-size: 16px;
     }
   }
 }

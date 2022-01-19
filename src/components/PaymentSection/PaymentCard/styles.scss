@@ -92,4 +92,30 @@
     // box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   }
+
+  @media screen and (max-width: 500px) {
+    &__amount {
+      font-size: 1.4rem;
+      span {
+        font-size: 10px;
+      }
+    }
+    &__desc {
+      font-size: 12px;
+    }
+    &__detail {
+      p {
+        font-size: 12px !important;
+        line-height: 12px !important;
+      }
+    }
+    &__button {
+      padding: 5px 0 15px 0;
+      button {
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-size: 1rem;
+      }
+    }
+  }
 }

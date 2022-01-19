@@ -13,7 +13,7 @@ export const ChartSection = () => {
         <Bounce left>
           <div className="chart-section__left">
             <div className="stats">
-              <ChartStats name="Balance Amount" amount="₹ 10,354" />
+              <ChartStats name="Balance Amount" amount="₹ 9,354" />
               <ChartStats name="Last Transaction" amount="₹ 257" />
             </div>
             <img src={chart} alt="" />
