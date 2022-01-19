@@ -1,5 +1,4 @@
 import React from "react";
-import Button from '../Button';
 import { phone, ringOrange, messageBlue, messagePink } from "../../assets/Images";
 import './styles.scss';
 import { Fade, Flip } from "react-reveal";
