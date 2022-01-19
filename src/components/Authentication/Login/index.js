@@ -8,13 +8,13 @@ export const Login = (props) => {
     
     return (
         <div className="login">
-            <div className="login__right">
+            <div className="login__left">
                 <img src={login} alt="" />
             </div>
 
-            <div className="login__left">
+            <div className="login__right">
                 <h1>Login</h1>
-                <div className="login__left--fields">
+                <div className="login__right--fields">
                     <div className="input">
                         <img src={name} alt="" className="name" />
                         <input type="text" placeholder="Name / Email" />

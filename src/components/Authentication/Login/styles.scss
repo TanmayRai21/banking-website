@@ -4,6 +4,15 @@
   padding: 3rem;
 
   &__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 100%;
+    }
+  } 
+
+  &__right {
     padding-left: 2rem;
     h1 {
       color: var(--dark-primary);
@@ -18,12 +27,12 @@
         margin: 15px 0;
         border-bottom: 1px solid darkgrey;
         .name {
-            height: 18px;
-            width: 18px;
+          height: 18px;
+          width: 18px;
         }
         .lock1 {
-            height: 16px;
-            width: 16px;
+          height: 16px;
+          width: 16px;
         }
         input {
           border: none;
@@ -60,12 +69,23 @@
     }
   }
 
-  &__right {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    img {
-      width: 100%;
+  @media screen and (max-width: 1200px) {
+    padding: 1rem 0;
+  }
+
+  @media screen and (max-width: 800px) {
+    grid-template-columns: repeat(1, 1fr);
+    &__right {
+      padding: 0 1rem;
+      &--fields {
+        padding: 10px 0;
+      }
+      button {
+        font-size: 14px;
+      }
+    }
+    &__left img {
+      width: 70%;
     }
   }
 }

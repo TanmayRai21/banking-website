@@ -15,7 +15,16 @@
     margin: 5% 0;
     padding: 20px;
     width: 60%;
+    height: max-content;
     border-radius: 50px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    @media screen and (max-width: 800px) {
+      width: 80%;
+      height: max-content;
+      h1 {
+        padding-top: 2rem;
+      }
+    }
   }
 }
