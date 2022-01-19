@@ -1,14 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from '../Button';
 import { logo } from '../../assets/Images';
 import './styles.scss';
 import { Fade } from 'react-reveal';
+import { AuthSection } from '../Authentication';
 
 export const Navigation = () => {
+
+    const [modalState, setModalState] = useState('');
 
     const handleClick = (ele) => {
         const element = document.getElementsByClassName(ele)[0];
         element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    const handleModal = (e) => {
+        setModalState(e);
+    }
+
+    const handleModalSubmit = (e) => {
+        setModalState('');
     }
 
     return (
@@ -24,10 +35,11 @@ export const Navigation = () => {
                     <li onClick={() => handleClick('faq')}>FAQs</li>
                 </ul>
                 <div className="navigation__button">
-                    <Button name={'Log In'} />
-                    <Button name={'Sign Up'} />
+                    <Button name={'Log In'} handleClick={() => handleModal('login')} />
+                    <Button name={'Sign Up'} handleClick={() => handleModal('signup')} />
                 </div>
             </Fade>
+            {modalState && <AuthSection state={modalState} handleClick={handleModalSubmit} />}
         </div>
     )
 };

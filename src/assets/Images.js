@@ -1,4 +1,10 @@
 import logo from './img/logo.png';
+import signup from './img/signup.png';
+import login from './img/login.png';
+import name from './img/name.png';
+import email from './img/email.png';
+import lock1 from './img/lock1.png';
+import lock2 from './img/lock2.png';
 import payment from './img/payment.png';
 import arrow from './img/arrow.svg';
 import avatar1 from './img/avatar1.svg';
@@ -22,5 +28,5 @@ import phone from './img/phone.svg';
 import plus from './img/plus.svg';
 import ringOrange from './img/ring_orange.svg';
 
-export { logo, payment, arrow, avatar1, avatar2, avatar3, avatar4, avatar5, bgCircles, bg, blobBottom, blobTop, chart, checkDisabled, check, circleBg,
+export { logo, signup, login, name, email, lock1, lock2, payment, arrow, avatar1, avatar2, avatar3, avatar4, avatar5, bgCircles, bg, blobBottom, blobTop, chart, checkDisabled, check, circleBg,
     conversation, messageBlue, messagePink, minus, phone, plus, ringOrange }

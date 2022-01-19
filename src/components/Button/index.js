@@ -5,10 +5,10 @@ import './styles.scss';
 
 const Button = (props) => {
 
-    const { name, animated } = props;
+  const { name, animated, handleClick } = props;
 
     return (
-      <div className={animated ? "button animated" : "button primary"}>
+      <div className={animated ? "button animated" : "button primary"} onClick={handleClick}>
         {name}
         {animated && (
           <>
