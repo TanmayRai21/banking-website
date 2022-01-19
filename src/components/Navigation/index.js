@@ -30,7 +30,7 @@ export const Navigation = () => {
 
             <Fade>
                 <ul>
-                    <li onClick={() => handleClick('card-section')}>About</li>
+                    <li onClick={() => handleClick('card-section')}>Why Unipay?</li>
                     <li onClick={() => handleClick('payment')}>Pricing</li>
                     <li onClick={() => handleClick('faq')}>FAQs</li>
                 </ul>
